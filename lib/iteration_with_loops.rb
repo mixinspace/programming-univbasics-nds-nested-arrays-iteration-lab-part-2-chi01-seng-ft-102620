@@ -1,7 +1,7 @@
 def find_min_in_nested_arrays(src)
   input = src[:array_1]
 highest = input.min
-highest
+highest.to_i
 
 
   end
