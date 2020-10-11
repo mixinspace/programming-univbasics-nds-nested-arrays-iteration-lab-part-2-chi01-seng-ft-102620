@@ -1,7 +1,5 @@
 def find_min_in_nested_arrays(src)
-  input = src[:array_1]
-highest = input.min
-p highest
+  lowest_arrays = src.map {|a| a.min}
 
 
   end
