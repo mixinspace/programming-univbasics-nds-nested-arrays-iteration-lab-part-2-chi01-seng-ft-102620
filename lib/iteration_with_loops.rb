@@ -1,7 +1,7 @@
 def find_min_in_nested_arrays(src)
-  new_array = []
-  min = src[0][1].min
-  min
+  input = src
+highest = input.min
+[highest] * input.count(highest)
   end
 
 
