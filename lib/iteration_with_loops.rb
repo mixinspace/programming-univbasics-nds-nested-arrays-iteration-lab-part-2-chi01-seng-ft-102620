@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-  input = src[array_1][array_2]
+  input = src[][]
 highest = input.min
 [highest] * input.count(highest)
   end
